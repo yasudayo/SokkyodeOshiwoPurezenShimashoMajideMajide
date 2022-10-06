@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.js"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        scene {
+            width: 118vmin;
+            height: 98vmin;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <title>即興で推しをプレゼンしましょマジでマジで</title>
+    <link rel="stylesheet" href="style.css">
+    <input type="button" value="START" id="sb" onclick="start()">
+    <input type="button" value="もう一度遊ぶ" id="reload" onclick="reload()">
+    <div id="title"></div>
+    <div id="subtitle"></div>
+    <div id="limit"></div>
+    <div id="timertext"></div>
+    <div id="text"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>

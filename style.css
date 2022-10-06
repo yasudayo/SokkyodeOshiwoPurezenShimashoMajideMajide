@@ -1,0 +1,67 @@
+#title {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: auto;
+    font-weight: 900;
+    font-size: 50;
+    top: 20%;
+}
+#subtitle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: auto;
+    font-weight: 400;
+    font-size: 30;
+    text-align: center;
+    bottom: 30%;
+}
+#sb {
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+}
+#text {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: auto;
+    font-weight: 900;
+    font-size: 50;
+    top: 30%;
+}
+#limit {
+    position: absolute;
+    text-align: center;
+    width: 550px;
+    height: auto;
+    font-weight: 300;
+    font-size: 30;
+    left: 55%;
+    bottom: 10%;
+}
+#timertext {
+    position: absolute;
+    text-align: center;
+    width: 550px;
+    height: auto;
+    font-weight: 300;
+    font-size: 30;
+    left: 53%;
+    top: 10%;
+}
+#reload {
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+}
