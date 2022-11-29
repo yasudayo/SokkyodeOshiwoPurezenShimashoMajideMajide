@@ -30,8 +30,8 @@ const oshi4 = Math.floor(Math.random() * oshies.length);
 const oshi5 = Math.floor(Math.random() * oshies.length);
 const oshi6 = Math.floor(Math.random() * oshies.length);
 
-title.innerText = "即興で推しをプレゼンしましょ\nマジでマジで";
-subtitle.innerText = "マジでマジでシリーズ3作品目";
+title.innerText = "即興で推しをプレゼンしましょ";
+subtitle.innerText = "";
 limit.innerText = "1/6";
 meirei.style.display = 'none';
 reloadb.style.display = 'none';
